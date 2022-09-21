@@ -11,8 +11,18 @@
     COMMON
  ------------*/
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    color: #eaded5;
+    margin: 0 10px;
 }
 
 /*------------ 
@@ -26,3 +36,28 @@
     BUTTON
  ------------*/
  
+/*------------ 
+    HEADER
+ ------------*/
+ header{
+    background-color: #ff6900;
+    height: 55px;
+ }
+ header .col{
+    text-align: center;
+ }
+ header .row{
+    height: 100%;
+    align-items: center;
+ }
+ header .col-small{
+    width: 25%;
+    padding: 10px;
+ }
+ header .col-big{
+    width: 50%;
+ }
+ header .logo{
+    max-width: 30%;
+ }
+
