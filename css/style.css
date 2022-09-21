@@ -1,0 +1,28 @@
+/*------------ 
+    RESET
+ ------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*------------ 
+    COMMON
+ ------------*/
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/*------------ 
+  TYPOGRAPHY
+ ------------*/
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
+
+/*------------ 
+    BUTTON
+ ------------*/
+ 
