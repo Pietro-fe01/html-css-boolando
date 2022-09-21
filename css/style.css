@@ -24,6 +24,12 @@ header a, footer a{
     color: #eaded5;
 }
 
+header .col-small:first-of-type a:hover,
+footer .customer-rights a:hover{
+    text-decoration: underline;
+    color: #eaded5;
+}
+
 /*------------ 
   TYPOGRAPHY
  ------------*/
@@ -37,7 +43,10 @@ header a, footer a{
  header{
     background-color: #ff6900;
     height: 70px;
-    margin-bottom: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
  }
  header .col{
     text-align: center;
@@ -63,6 +72,9 @@ header a, footer a{
 /*------------ 
     MAIN
  ------------*/
+ main{
+    padding-top: 110px;
+ }
  main .row{
     flex-wrap: wrap;
  }
@@ -150,8 +162,8 @@ main .like-article:hover i{
  }
  footer .our-pages{
     letter-spacing: 5px;
-    font-size: 25px;
+    font-size: 20px;
  }
- footer .name-agency, footer .contacts h4{
+ footer .name-agency, footer .contacts h3{
     margin-bottom: 10px;
  }
