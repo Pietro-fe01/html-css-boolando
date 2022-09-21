@@ -22,7 +22,6 @@
 header a{
     text-decoration: none;
     color: #eaded5;
-    margin: 0 10px;
 }
 
 /*------------ 
@@ -33,15 +32,12 @@ header a{
  }
 
 /*------------ 
-    BUTTON
- ------------*/
- 
-/*------------ 
     HEADER
  ------------*/
  header{
     background-color: #ff6900;
     height: 55px;
+    margin-bottom: 40px;
  }
  header .col{
     text-align: center;
@@ -60,4 +56,73 @@ header a{
  header .logo{
     max-width: 30%;
  }
+ header .col-small a:nth-child(2){
+    margin: 0 15px;
+ }
 
+/*------------ 
+    MAIN
+ ------------*/
+ main .row{
+    flex-wrap: wrap;
+ }
+ main .col{
+    width: calc(100%/3 - 20px);
+    margin: 0 10px 20px 10px;
+    position: relative;
+ }
+ main .card-top img{
+    width: 100%;
+    display: block;
+ }
+ main .card-top{
+    position: relative;
+ }
+ main .card-top:hover .first-img{
+    display: none;
+ }
+ main .card-top .first-img{
+    position: absolute;
+ }
+ main .card-top :nth-child(1n+3){
+    position: absolute;
+    bottom: 30px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 15px;
+ } 
+ main .card-top .discount{
+    left: 0;
+    background-color: red;
+ }
+ main .card-top .tag{
+    left: 60px;
+    background-color: green;
+ }
+ main .marchio a{
+    color: black;
+ }
+ main .card-bottom-info .new-price{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ main .card-bottom-info .old-price{
+    color: black;
+    text-decoration: line-through;
+    font-size: small;
+    position: relative;
+    bottom: 8px;
+    right: 2px;
+}
+main .like-article i{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+main .like-article:hover i{
+    color: red;
+}
