@@ -19,7 +19,7 @@
     display: flex;
 }
 
-header a{
+header a, footer a{
     text-decoration: none;
     color: #eaded5;
 }
@@ -36,7 +36,7 @@ header a{
  ------------*/
  header{
     background-color: #ff6900;
-    height: 55px;
+    height: 70px;
     margin-bottom: 40px;
  }
  header .col{
@@ -130,3 +130,28 @@ main .like-article i{
 main .like-article:hover i{
     color: red;
 }
+
+/*------------ 
+    FOOTER
+ ------------*/
+ footer{
+    background-color: #1a1a1a;
+    color: #eaded5;
+    height: 80px;
+    margin-top: 40px;
+ }
+ footer .row{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+ }
+ footer .customer-rights > a{
+    margin-right: 10px;
+ }
+ footer .our-pages{
+    letter-spacing: 5px;
+    font-size: 25px;
+ }
+ footer .name-agency, footer .contacts h4{
+    margin-bottom: 10px;
+ }
