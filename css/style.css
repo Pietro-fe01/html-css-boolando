@@ -79,8 +79,8 @@ footer .customer-rights a:hover{
     flex-wrap: wrap;
  }
  main .col{
-    width: calc(100%/3 - 20px);
-    margin: 0 10px 20px 10px;
+    width: calc(100%/3 - 30px);
+    margin: 0 15px 20px 15px;
     position: relative;
  }
  main .card-top img{
@@ -89,6 +89,8 @@ footer .customer-rights a:hover{
  }
  main .card-top{
     position: relative;
+    -webkit-box-shadow: -7px -7px 13px -3px rgba(0,0,0,0.63); 
+box-shadow: -7px -7px 13px -3px rgba(0,0,0,0.63);
  }
  main .card-top:hover .first-img{
     display: none;
