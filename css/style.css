@@ -99,7 +99,11 @@ header a{
     left: 60px;
     background-color: green;
  }
- main .marchio a{
+ main .card-top #last-tag{
+    position: absolute;
+    left: 0;
+ }
+ main .card-bottom-info .marchio a{
     color: black;
  }
  main .card-bottom-info .new-price{
