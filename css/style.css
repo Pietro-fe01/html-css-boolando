@@ -11,7 +11,7 @@
     COMMON
  ------------*/
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -42,8 +42,9 @@ footer .customer-rights a:hover{
  ------------*/
  header{
     background-color: #ff6900;
-    height: 70px;
+    height: 60px;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 100;
@@ -63,7 +64,7 @@ footer .customer-rights a:hover{
     width: 50%;
  }
  header .logo{
-    max-width: 30%;
+    max-height: 30px;
  }
  header .col-small a:nth-child(2){
     margin: 0 15px;
@@ -80,7 +81,7 @@ footer .customer-rights a:hover{
  }
  main .col{
     width: calc(100%/3 - 30px);
-    margin: 0 15px 20px 15px;
+    margin: 0 15px 40px 15px;
     position: relative;
  }
  main .card-top img{
