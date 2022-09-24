@@ -91,7 +91,7 @@ footer .customer-rights a:hover{
  main .card-top{
     position: relative;
     -webkit-box-shadow: -7px -7px 13px -3px rgba(0,0,0,0.63); 
-box-shadow: -7px -7px 13px -3px rgba(0,0,0,0.63);
+   box-shadow: -7px -7px 13px -3px rgba(0,0,0,0.63);
  }
  main .card-top:hover .first-img{
     display: none;
@@ -99,24 +99,20 @@ box-shadow: -7px -7px 13px -3px rgba(0,0,0,0.63);
  main .card-top .first-img{
     position: absolute;
  }
- main .card-top :nth-child(1n+3){
+ main .card-top .tags{
     position: absolute;
     bottom: 30px;
-    padding: 7px 10px;
+    left: 0;
     color: white;
     font-size: 15px;
  } 
  main .card-top .discount{
-    left: 0;
     background-color: red;
+    padding: 5px 10px;
  }
  main .card-top .tag{
-    left: 60px;
     background-color: green;
- }
- main .card-top #last-tag{
-    position: absolute;
-    left: 0;
+    padding: 5px 10px;
  }
  main .card-bottom-info .marchio a{
     color: black;
